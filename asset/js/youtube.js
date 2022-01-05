@@ -117,7 +117,6 @@ function appelRequete()
 	var maxResult = "maxResults=12";
 	var order = "order=date";
 	var region = "regionCode=FR";
-	var key = "key=AIzaSyDrFB7_UUVM6f1AOHZ3F3xS_Ima5K6WSBQ";
 console.log("requete : " +maxResult+"&"+order+"&"+query+"&"+region);
 	var xhr = new XMLHttpRequest;
 	xhr.open("GET",`https://youtube.googleapis.com/youtube/v3/search?${maxResult}&${order}&${query}&${region}&${key}`,true );

@@ -1,0 +1,34 @@
+div{
+	display:block;
+	width:auto;
+}
+
+H1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+#select #video{
+	display:flexbox;
+}
+#query__Btn{
+	width:55%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 50px;
+}
+#requete {
+	width:600px;
+	margin-bottom: 50px;
+}
+button {
+	margin-right:5px;
+}
+.request__Grp{
+	margin-bottom: 5px;
+}
+#video{
+	display:flexbox;
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
+}

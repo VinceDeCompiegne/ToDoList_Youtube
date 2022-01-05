@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Site permettant de sauvegarder une liste de recherche Youtube et ensuite de les faire appelles - développé en 2021">"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche Youtube</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="asset/css/youtube.css" rel="stylesheet">
+    <script src="asset/js/youtube.js" defer></script>
+</head>
+<body onLoad="lecturelocal()">
+<H1>Stockage des recherches Youtube</H1>
+<div id="query__Btn">
+    <input id="requete" type="text"></input>
+    <input id="add_Btn" class="btn btn-primary" type="button" value="Add"></input>
+    <input id="del_Btn" class="btn btn-primary" type="button" value="Dell"></input>
+    <div id="select"></div>
+</div>
+<div id="video"></div>
+</body>
+</html>
